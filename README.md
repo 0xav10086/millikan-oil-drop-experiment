@@ -17,3 +17,7 @@
 
 ## quick strat
 
+将millikan oil-drop experiment.py下载后使用pycharm等IDE打开并运行即可，根据代码的提示输入数据即可。
+
+## example
+
