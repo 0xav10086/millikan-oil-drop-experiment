@@ -24,14 +24,14 @@ for i in range(5):
     # 打印提示信息，显示当前是第几组数据
     print("这是第", i + 1, "组数据")
     # 用input函数获取用户输入的四个整数，用逗号分隔
-    integers = input("请输入你所记录的4个时间，用逗号分隔：")
+    integers = input("请输入你所记录的4个电压，用逗号分隔：")
     # 用split方法将字符串分割成列表，用map方法将列表中的元素转换成整数，用*号解包成四个参数
     int_result = average_four_numbers(*map(int, integers.split(",")))
     # 打印结果
-    print("该组时间的平均值是：", int_result)
+    print("该组电压的平均值是：", int_result)
 
     # 用input函数获取用户输入的四个浮点数，用逗号分隔
-    floats = input("请输入你所记录的四个电压，用逗号分隔：")
+    floats = input("请输入你所记录的四个时间，用逗号分隔：")
     # 用split方法将字符串分割成列表，用map方法将列表中的元素转换成浮点数，用*号解包成四个参数
     float_result = average_four_numbers(*map(float, floats.split(",")))
     # 打印结果
